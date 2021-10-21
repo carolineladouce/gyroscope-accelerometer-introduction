@@ -10,7 +10,6 @@
 		C6A62BF82721043600C93237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A62BF72721043600C93237 /* AppDelegate.swift */; };
 		C6A62BFA2721043600C93237 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A62BF92721043600C93237 /* SceneDelegate.swift */; };
 		C6A62BFC2721043600C93237 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A62BFB2721043600C93237 /* ViewController.swift */; };
-		C6A62BFF2721043600C93237 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6A62BFD2721043600C93237 /* Main.storyboard */; };
 		C6A62C012721043900C93237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A62C002721043900C93237 /* Assets.xcassets */; };
 		C6A62C042721043900C93237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6A62C022721043900C93237 /* LaunchScreen.storyboard */; };
 		C6A62C0F2721043900C93237 /* GyroscopeAccelerometerPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A62C0E2721043900C93237 /* GyroscopeAccelerometerPracticeTests.swift */; };
@@ -40,7 +39,6 @@
 		C6A62BF72721043600C93237 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6A62BF92721043600C93237 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C6A62BFB2721043600C93237 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C6A62BFE2721043600C93237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6A62C002721043900C93237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6A62C032721043900C93237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6A62C052721043900C93237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 				C6A62BF72721043600C93237 /* AppDelegate.swift */,
 				C6A62BF92721043600C93237 /* SceneDelegate.swift */,
 				C6A62BFB2721043600C93237 /* ViewController.swift */,
-				C6A62BFD2721043600C93237 /* Main.storyboard */,
 				C6A62C002721043900C93237 /* Assets.xcassets */,
 				C6A62C022721043900C93237 /* LaunchScreen.storyboard */,
 				C6A62C052721043900C93237 /* Info.plist */,
@@ -233,7 +230,6 @@
 			files = (
 				C6A62C042721043900C93237 /* LaunchScreen.storyboard in Resources */,
 				C6A62C012721043900C93237 /* Assets.xcassets in Resources */,
-				C6A62BFF2721043600C93237 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C6A62BFD2721043600C93237 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C6A62BFE2721043600C93237 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C6A62C022721043900C93237 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +432,6 @@
 				INFOPLIST_FILE = GyroscopeAccelerometerPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +459,6 @@
 				INFOPLIST_FILE = GyroscopeAccelerometerPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
